@@ -17,7 +17,8 @@
     --color-bg: #1f1f38; 
     --color-bg-variant: #1F2833;
     --color-primary-variant: #45A29E;
-    --color-primary: #66FCF1; /* #4db5ff; */
+    --color-prmr: #8ae7d3;
+    --color-primary: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%); 
     --color-white: #fff;
     --color-light: rgba(255,255,255,0.6);
 
@@ -79,7 +80,7 @@ section > h5{
 }
 
 section > h2 {
-    color: var(--color-primary);
+    color: var(--color-prmr);
     margin-bottom: 3rem;
 }
 

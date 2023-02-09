@@ -32,7 +32,7 @@
     text-align: center;
 }
 .portfolio__container strong{
-    color: var(--color-primary)
+    color: var(--color-prmr);
 }
 
 .portfolio__list {
@@ -48,7 +48,7 @@
 
 .portfolio__list-icon{
     margin-top: 3px;
-    color: var(--color-primary);
+    color: var(--color-prmr);
     font-size: xx-large;
 }
 

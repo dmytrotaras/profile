@@ -4,6 +4,7 @@ import AVTR1 from '../../assets/av1.png'
 import AVTR2 from '../../assets/av2.jpeg'
 import AVTR3 from '../../assets/av3.png'
 import AVTR4 from '../../assets/av4.jpeg'
+import AVTR from '../../assets/tool.png'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -28,7 +29,7 @@ const data = [
   {
     image: AVTR4,
    
-  }
+  },
 ]
 
 const Hobbyslider = () => {

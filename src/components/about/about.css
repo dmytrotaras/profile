@@ -11,7 +11,7 @@
     background: linear-gradient(
         45deg,
         transparent,
-        var(--color-primary),
+        #8ae7d3,
         transparent
     );
     display: grid;
@@ -44,9 +44,15 @@
 }
 
 .about__card:hover{
-    background: transparent;
-    border-color: var(--color-primary-variant);
+    transform: scale(1.03);
     cursor:default;
+}
+
+.facts__icon{
+    margin: auto;
+    height: 10vh;
+    width: 10vh;
+    margin-bottom: 1rem;
 }
 
 .about__icon{

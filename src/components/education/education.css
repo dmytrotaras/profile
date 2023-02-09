@@ -64,7 +64,7 @@
     text-align: center;
 }
 .degree strong{
-    color: var(--color-primary)
+    color: var(--color-prmr);
 }
 .degree_details{
     padding-left: 1rem;

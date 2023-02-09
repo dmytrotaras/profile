@@ -5,6 +5,9 @@ import {FaAward} from 'react-icons/fa'
 import {HiAcademicCap} from 'react-icons/hi'
 import {BsFolderFill} from 'react-icons/bs'
 import {BsBriefcaseFill} from 'react-icons/bs'
+import AVTR from '../../assets/tool.png'
+import AVTR7 from '../../assets/notebook.png'
+import AVTR8 from '../../assets/folder.png'
 
 const About = () => {
   return (
@@ -21,17 +24,17 @@ const About = () => {
             <div className="about__content">
                 <div className='about__cards'>
                     <article className='about__card'>
-                        <BsBriefcaseFill className='about__icon'/>
+                        <img src={AVTR} className='facts__icon' />
                         <h5>Exprience</h5>
                         <small>4 Years Working</small>
                     </article>
                     <article className='about__card'>
-                        <HiAcademicCap className='about__icon'/>
+                        <img src={AVTR7} className='facts__icon' />
                         <h5>Bachelor</h5>
                         <small>of Engineering</small>
                     </article>
                     <article className='about__card'>
-                        <BsFolderFill className='about__icon'/>
+                        <img src={AVTR8} className='facts__icon' />
                         <h5>Projects</h5>
                         <small>10+ Completed</small>
                     </article>

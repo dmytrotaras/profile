@@ -20,7 +20,9 @@ input, textarea{
     color: var(--color-white);
     
 }
-
+.contact h2{
+    color: #66FCF1;
+}
 textarea  
 {  
    font-family:"Poppins", sans-serif;

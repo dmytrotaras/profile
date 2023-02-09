@@ -10,8 +10,12 @@ header{
     position: relative;
 }
 
+.btn{
+    border-color: var(--color-white);
+}
 /* CTA */
 .cta{
+    
     margin-top: 4.8vh;
     display: flex;
     gap: 1.8%;
@@ -27,6 +31,7 @@ header{
     position:absolute;
     left: 0;
     bottom: 3rem;
+    color: var(--color-prmr);
 }
 
 
@@ -34,7 +39,7 @@ header{
 
 
 .me{
-    background: linear-gradient(var(--color-primary),transparent);
+    background: linear-gradient(#8ae7d3,transparent);
     width: 22rem;
     height: 22rem;
     position: absolute;
@@ -53,6 +58,7 @@ header{
     transform:rotate(90deg);
     font-weight: 300;
     font-size:0.9rem;
+    color: var(--color-prmr);
 }
 
 
