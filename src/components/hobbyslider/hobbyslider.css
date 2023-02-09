@@ -1,0 +1,36 @@
+.container.hobby__container{
+    width:45%;
+    padding-bottom:4rem ;
+
+}
+
+
+.hobby{
+    text-align: center;
+    user-select: none;
+    border-radius: 2rem;
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+.hobby:hover{
+    transform: translateY(-5px);
+}
+
+img.hobby__image{
+    border-radius: 2rem;
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px){
+    .container.hobby__container{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container.hobby__container{
+        width: var(--container-width-sm);
+    }
+}

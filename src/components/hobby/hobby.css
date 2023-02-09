@@ -1,0 +1,49 @@
+.container.hobby__container{
+    width:45%;
+    padding-bottom:2.5rem ;
+}
+.hobby__image{
+    width: 4rem;
+    aspect-ratio: 1/1;
+    overflow:hidden;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    border: 0.4rem solid var(--color-primary-variant);
+
+}
+
+.hobby{
+    background:var(--color-primary-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+.hobby__describtion{
+    color: var(--color-light);
+    font-weight: 300;
+    display: block;
+    width: 80%;
+    margin: 0.8rem auto 0;
+
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    background: var(--color-primary);
+}
+
+@media screen and (max-width: 1024px){
+    .container.hobby__container{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .container.hobby__container{
+        width: var(--container-width-sm);
+    }
+    .hobby__review{
+        width: var(--container-width-sm);
+    }
+}

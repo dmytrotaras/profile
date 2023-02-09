@@ -1,0 +1,150 @@
+.education__container{
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.education{
+    /* background: linear-gradient(var(--color-bg-variant),transparent);  */
+    background: transparent;
+    border-radius: 2rem 2rem 2rem 2rem;
+    border: 1px solid var(--color-primary);
+    height: fit-content;
+    transition: var(--transition);
+    padding: 1rem;
+}
+.education:hover{
+    background: var(--color-bg-variant);
+    border: 1px solid var(--color-bg-variant);
+    cursor: default;
+
+    transform: translateY(-5px);
+    box-shadow: 0px 30px 60px 6px var(--color-drck);
+}
+.education__head{
+    background: var(--color-primary);
+    padding: 1.7rem;
+    border-radius: 2rem 2rem 2rem 2rem;
+    box-shadow: 0 2rem 1rem rgba(0,0,0,0);
+}
+.education__head:hover{
+    transform: scale(1.03);
+}
+
+
+.education__content{
+    display: flex;
+    gap:1rem;
+}
+.education__head h3{
+    color: var(--color-bg);
+    font-size: 1rem;
+    text-align: center;
+}
+.kpi{
+    margin-top: 0.8rem;
+    padding-bottom: 1rem;
+}
+.university__logo__knteu,
+.university__logo__kpi{
+    width: 55px;
+    height: 50px;
+}
+
+
+
+
+
+.degree h3{
+    margin: 1.2rem 0 1rem;
+    text-align: center;
+}
+.degree p{
+    color: var(--color-white);
+    text-align: center;
+}
+.degree strong{
+    color: var(--color-primary)
+}
+.degree_details{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+
+
+/* media queries (medium device) */
+@media screen and (max-width: 1024px){
+    .education__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    .education{
+        height: auto;
+    }
+    .kpi{
+        margin-top: 0rem;
+        padding-bottom: 0rem;
+    }
+}
+
+/* media queries (small device) */
+@media screen and (max-width:600px){
+    .education__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .kpi{
+        margin-top: 0rem;
+        padding-bottom: 0rem;
+    }
+}
+	
+/* media queries (small device) */
+@media screen and (364px <= width <= 416px){
+
+    .education__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .university__logo__knteu{
+        margin-top:1rem;
+    }
+}
+/* media queries (small device) */
+@media screen and (width <= 363px){
+
+    .education__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .university__logo__knteu{
+        margin-top:1.5rem;
+    }
+}
+
+/* media queries (small device) */
+@media screen and (341px <= width <= 386px){
+
+    .education__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .university__logo__kpi{
+        margin-top:1rem;
+    }
+}
+
+/* media queries (small device) */
+@media screen and (width <= 340px){
+
+    .education__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    .university__logo__kpi{
+        margin-top:1.5rem;
+    }
+}
