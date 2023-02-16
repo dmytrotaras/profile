@@ -10,9 +10,7 @@ header{
     position: relative;
 }
 
-.btn{
-    border-color: var(--color-white);
-}
+
 /* CTA */
 .cta{
     

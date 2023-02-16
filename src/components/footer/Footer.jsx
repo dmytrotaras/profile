@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import {BsLinkedin} from 'react-icons/bs'
+import {FiMail} from 'react-icons/fi'
 import {BsInstagram} from 'react-icons/bs'
 import {BsWhatsapp} from 'react-icons/bs'
 import {BsTelegram} from 'react-icons/bs'
@@ -18,9 +18,9 @@ const Footer = () => {
             <li><a href="#contact">Contact</a></li>
         </ul>
         <div className="footer__socials">
-        <a href="https://telegram.com" ><BsTelegram/></a>
-        <a href="https://whatsapp.com" ><BsWhatsapp/></a>
-        <a href="https://linkedin.com" ><BsLinkedin/></a>
+        <a href="https://t.me/somenmsrnm" ><BsTelegram/></a>
+        <a href="https://wa.me/+34623494625" ><BsWhatsapp/></a>
+        <a href="mailto:dmytrosuertes@gmail.com" ><FiMail/></a>
         <a href="https://instagram.com"><BsInstagram/></a>
         
         
