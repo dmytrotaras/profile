@@ -46,7 +46,7 @@ body{
     color: var(--color-white);
     line-height: 1.7;
     background-image: url(../src/assets/bg1.png);
-    background-image: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     /*
