@@ -1,0 +1,35 @@
+#floating__nav{
+    display: none;
+}
+
+/* media queries (tablets) */
+@media screen and (max-width:1024px){
+    #floating__nav{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        bottom: 2rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .scrollspy{
+        display: flex;
+        gap: 0.8rem;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 0.7rem, 1.7rem;
+        border-radius: 3rem;
+        backdrop-filter: blur(15px);
+    }
+    #floating__nav a {
+        padding: 0.9rem;
+        border-radius: 50%;
+        font-size: 1.1rem;
+        color: var(--color-light);
+        display: grid;
+    }
+
+    #floating__nav li.active a {
+        background: var(--color-primary);
+        color: var(--color-dark);
+    }
+}

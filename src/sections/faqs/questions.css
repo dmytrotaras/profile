@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+#questions{
+    font-family:"Poppins", sans-serif;
+    font-size: 16px;
+}
+
+#questions h2{
+    color: var(--color-primary);
+}
+
+#questions p{
+    color: var(--color-white);
+}
+
+.faqs__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 4rem;
+    align-items: start; 
+    
+}
+
+.card.faq{
+    background: var(--clr-drck);
+    border: 2px solid transparent;
+    transform: translateY(-0.8rem);
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
+}
+.card.faq:hover{
+    cursor: pointer;
+    background: var(--clr-drck);
+}
+
+.faq > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.faq h4{
+    line-height: 1.4;
+    color: var(--color-white)
+}
+
+.faq__icon{
+    font-size: 1.2rem;
+    color: var(--color-black);
+    background: transparent;
+}
+
+.faq__answer{
+    margin-top: 1rem;
+    opacity: 0;
+    animation: animateAnswer 500ms ease-in forwards;
+}
+
+@keyframes animateAnswer{
+    to{
+        opacity: 1;
+    }
+}
+
+/* media queries (tablets) */
+@media screen and (max-width: 1024px){
+    .faqs__container{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* media queries (phones) */
+@media screen and (max-width: 600px){
+    .faqs__container{
+        gap: 1rem;
+    }
+}
