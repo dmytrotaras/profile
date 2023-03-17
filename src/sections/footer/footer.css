@@ -1,0 +1,43 @@
+footer{
+    padding-top: 8rem;
+    transition: var(--transition);
+}
+
+footer .nav__menu{
+    justify-content: center;
+    padding-bottom: 5rem;
+}
+
+.footer__socials{
+    width: fit-content;
+    display: flex;
+    gap: 1.5rem;
+    margin: 3rem auto 4rem;
+}
+
+.footer__socials a {
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.6rem;
+    border-radius: var(--border-radius-3);
+}
+
+.footer__container h4{
+    font-style: italic;
+    text-align: center;
+    color: white;
+    margin-bottom: 5rem;
+}
+.footer__socials a:hover{
+    opacity: 0.7;
+    transform: translateY(-0.5rem);
+}
+
+.footer__copyright{
+    padding-top: 10rem;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+/*  */

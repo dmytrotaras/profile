@@ -1,0 +1,256 @@
+header{
+    margin-top: 5rem;
+    height: calc(100vh - 5rem);
+    display: grid;
+    place-items: center;
+    background: var(--color-white);
+    transition: var(--transition);
+}
+
+#header{
+    background: transparent;
+}
+
+.header__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* background: gray; */
+}
+
+.header__profile{
+    width: 22rem;
+    height: 22rem;
+    overflow: hiden;
+
+}
+
+.header__container h3{
+    color: white;
+    margin-bottom: 0.6rem;
+}
+
+.header__container p{
+    color: white;
+    width: 35rem;
+    text-align: center;
+    margin: 0.6rem 0 2rem;
+}
+
+.header__cta{
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.header__socials{
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.header__socials a {
+    width: 1.8rem;
+    aspect-ratio: 1/1;
+    /* background: var(--color-light); */
+    display: grid;
+    place-items: center;
+    border-radius: var(--border-radius-3);
+}
+
+
+.mail:hover{
+    animation: swingy 1s ease;
+    animation-iteration-count: 1;
+    color: var(--color-white);
+    /* transform: rotate(360deg);
+    transform: translate(-0.5rem); */
+}
+
+.inst:hover{
+    animation: swingx 1s ease;
+    animation-iteration-count: 1;
+    color: var(--color-white);
+}
+
+.telegram:hover{
+    animation: swingy 1s ease;
+    animation-iteration-count: 1;
+    color: var(--color-white);
+
+}
+
+.wapp:hover{
+    animation: swingx 1s ease;
+    animation-iteration-count: 1;
+    color: var(--color-white);
+
+}
+
+
+@keyframes swingy
+{
+    15%
+    {
+        transform: translateY(5px);
+    }
+    30%
+    {
+        transform: translateY(-5px);
+    }
+    50%
+    {
+        transform: translateY(3px);
+    }
+    65%
+    {
+        transform: translateY(-3px);
+    }
+    80%
+    {
+        transform: translateY(2px);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+@keyframes swingx
+{
+    15%
+    {
+        transform: translateX(5px);
+    }
+    30%
+    {
+        transform: translateX(-5px);
+    }
+    50%
+    {
+        transform: translateX(3px);
+    }
+    65%
+    {
+        transform: translateX(-3px);
+    }
+    80%
+    {
+        transform: translateX(2px);
+    }
+    100%
+    {
+        transform: translateX(0);
+    }
+}
+
+/* media queries (tablets) */
+@media screen and (max-width: 1024px){
+    header{
+        margin-top: 0;
+        height: 100vh;
+    }
+}
+
+/* media queries (phones) */
+@media screen and (max-width: 600px){
+    .header__profile{
+        width: 14rem;
+        height: 17rem;
+        max-width: 60%;
+        max-height: 35vh;
+    }
+
+    .header__container p{
+        width: 100%;
+    }
+
+    .header__cta{
+        gap: 1rem;
+    }
+
+    .header__socials{
+        display: none;
+    }
+}
+
+/* media queries (big computer)
+@media screen and (min-width: 1900px){
+    .header__container,
+    .header__profile,
+    .header__container h3,
+    .header__container p,
+    .header__cta,
+    .header__socials,
+    .header{
+        transform: scale(1.2);
+    }
+}
+
+/* media queries (bigger computer) 
+@media screen and (min-width: 3200px){
+    .header__container,
+    .header__profile,
+    .header__container h3,
+    .header__container p,
+    .header__cta,
+    .header__socials,
+    .header{
+        transform: scale(1.5);
+    }
+
+    .header__container h3{
+        margin-top: 2rem;
+    }
+    
+    .header__container p{
+        margin-top: 2rem;
+    }
+    
+    .header__cta{
+        margin-top: 2rem;
+    }
+
+    .header__profile{
+        margin-bottom: 2rem;
+    }
+}
+
+
+/* media queries (huge screen) 
+@media screen and (min-width: 4200px){
+    .header__container,
+    .header__profile,
+    .header__container h3,
+    .header__container p,
+    .header__cta,
+    .header__socials,
+    .header{
+        transform: scale(1.8);
+    }
+    .header__container h3{
+        margin-top: 3rem;
+    }
+    
+    .header__container p{
+        margin-top: 3rem;
+    }
+    
+    .header__cta{
+        margin-top: 3rem;
+    }
+
+    .header__profile{
+        margin-bottom: 4rem;
+    }
+    .header{
+        marginx-bottom: 15rem;
+    }
+}
+
+*/

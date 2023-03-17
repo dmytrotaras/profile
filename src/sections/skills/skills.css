@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.skills__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+
+}
+
+.card.skill{
+    overflow: hidden;
+    z-index:0;
+    align-items: center;
+    text-align: center;  
+    background-color: var(--color-white);
+}
+
+.card.skill.main{
+    visibility: visible;
+}
+
+.card.skill:hover{
+    background: var(--color-white);
+    border: none;
+}
+
+.skill__icon{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.skill h4{
+    margin-bottom: 0.5rem;
+    color: var(--color-black);
+    font-style: italic;
+    font-family:"Poppins", monospace;
+    font-size: 16px;
+}
+
+
+/* media queries (tablets) */
+@media screen and (max-width:1024px){
+    .skills__container{
+        gap: 1.5rem;
+    }
+}
+
+
+/* media queries (phones) */
+@media screen and (max-width: 600px){
+    .skills__container{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .card.skill{
+        gap: 1.2rem;
+    }
+}
