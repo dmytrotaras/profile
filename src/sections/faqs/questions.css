@@ -23,7 +23,10 @@
 
 .card.faq{
     background: var(--clr-drck);
-    border: 2px solid transparent;
+    /* design v1 */
+    /* border: 2px solid transparent; */
+    /* design v2 */
+    border: 2px solid var(--color-dark);
     transform: translateY(-0.8rem);
     box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 15px;
 }

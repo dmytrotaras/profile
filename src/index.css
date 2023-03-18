@@ -62,6 +62,27 @@ body{
 
 
 /* Theme change using react */
+/* design v2 */
+main.color-1{
+    --primary-hue: 0;
+}
+main.color-2{
+    --primary-hue: 59;
+}
+main.color-3{
+    --primary-hue:80;
+}
+main.color-4{
+    --primary-hue: 110;
+}
+main.color-5{
+    --primary-hue:180;
+}
+main.color-6{
+    --primary-hue: 302;
+}
+
+/* design v1
 main.color-1{
     --primary-hue:80;
 }
@@ -71,6 +92,8 @@ main.color-2{
 main.color-3{
     --primary-hue: 110;
 }
+*/
+
 
 main{
     --color-primary: hsl(var(--primary-hue), 100%, 50%);
@@ -94,15 +117,19 @@ main{
 /* general section styles */
 section{
     padding: 10rem 0;
+    /*
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    */
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     transition: var(--transition);
 }
 
+/*
 section:nth-child(even){
     background: var(--color-light-puls);
 }
+*/
 
 section > h2{
     text-align: center;

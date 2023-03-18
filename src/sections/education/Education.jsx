@@ -12,7 +12,7 @@ const Education = () => {
   return (
     <section id="education">
       <h2>Education</h2>
-      <p>In this part find brief information about my Academic Degree, during it, I explored numerous topics of Computer Sience with emphasis on applying complex theoretical material to creating and optimization software.</p>
+      <p id="education__p">In this part find brief information about my Academic Degree, during it, I explored numerous topics of Computer Sience with emphasis on applying complex theoretical material to creating and optimization software.</p>
 
       <div className='container education__container'>
         {

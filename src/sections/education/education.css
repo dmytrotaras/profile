@@ -3,6 +3,14 @@
     background: var(--color-white);
     margin-bottom: 2rem;
 }
+/* design v2*/
+#education h2{
+    color: var(--color-primary);
+}
+/* design v2*/
+#education__p{
+    color: var(--color-white);
+}
 
 .education:hover{
     background:var(--color-white);
@@ -31,6 +39,7 @@
 .education__details h4{
     margin-bottom: 1rem;
 }
+
 #kp h3{
   color: white;
 }

@@ -36,6 +36,14 @@
     font-family:"Poppins", monospace;
     font-size: 16px;
 }
+/* design v2*/
+#skills h2{
+    color: var(--color-primary);
+}
+/* design v2*/
+#skills p{
+    color: var(--color-white);
+}
 
 
 /* media queries (tablets) */
